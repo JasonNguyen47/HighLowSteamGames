@@ -1,0 +1,43 @@
+export type Game = {
+  id: string;
+  name: string;
+};
+
+export const games: Game[] = [
+  { id: "730", name: "Counter-Strike 2" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+  { id: "105600", name: "Terraria" },
+];

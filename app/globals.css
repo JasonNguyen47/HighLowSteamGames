@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.HighLowBackground {
+  background-color: lightblue;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.panel {
+  background-color: rgb(210, 240, 210);
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50vw;
+  height: 100vh;
+  transition: all 0.5s linear;
+}
+
+.leftPanel {
+  left: 0vw;
+}
+
+.rightPanel {
+  left: 50vw;
+}
+
+.rightPanelToLeft {
+  left: 0vw;
+}
+
+.scoreCounter {
+  position: fixed;
+  color: blue;
+  z-index: 1;
+  bottom: 0;
+  right: 0;
+  margin-right: 5%;
+}
+
+.gameMenu {
+  border: solid;
+  background-color: rgb(210, 240, 210);
+  border-color: white;
+  position: fixed;
+  color: Black;
+  width: 30vw;
+  height: 40vh;
+
+  z-index: 1;
+  left: 50vw;
+  top: 50vh;
+  transform: translate(-50%, -50%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.menuText {
+  display: block;
+}
+
+.answerButton {
+  border: 1px solid;
+}
+
+.steamImage {
+  width: 100px;
+  height: auto;
+}
+
+.homePage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.loadingScreen {
+  background-color: rgb(210, 240, 210);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.gameName {
+  text-align: center;
+}
